@@ -2,9 +2,9 @@ int main () {
 int x = 8;
 int a = 0, b= 1;
 printf("La sucesión Fibonacci és:");
-printf(\"n%d", a);
-printf(\"n%d", b);
-for (b < x++) {
+printf("%d/n", a);
+printf("%d/n", b);
+for (b < x++;) {
    int y = a + b;
    a = b + 1;
    b = y - 1
