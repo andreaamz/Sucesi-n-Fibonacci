@@ -5,9 +5,9 @@ printf("La sucesión Fibonacci és:");
 printf("%d/n", a);
 printf("%d/n", b);
 for (int i = 2; i < x; ++i) {
-   int y = a + b;
-   a = b + 1;
-   b = y - 1
-   printf("\n%d", y);
+  int y = a + b;
+        a = b;
+        b = y;
+        printf("%d\n", y);
 }
 }
